@@ -1,20 +1,84 @@
 /*////////////// Fonts //////////////*/
-
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Baskerville.ttc);
+}
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: white;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Baskerville', serif; 
 }
+
+#logo{
+  background: white;
+  font-size: 2em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+display:block;
+  color:rgba(111,127,122,1);
+}
+
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	/*padding: 0 45px 20px;*/
 }
 
+.featured-image {
+  margin: 0 auto;
+  /*border: 5px solid rgb(152,173,166); */
+  width:950px;
+  padding:1px;
+
+}
+
+
+
+img{
+  margin: 0 auto;
+  border: 5px solid rgb(152,173,166);
+  padding:1px;
+
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-size:1em;
+  margin: 20px; 
+}
+
+
+
+h2{
+  display:block;
+  color:rgba(111,127,122,1);
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 auto;
+}
 /* Write all remaining styles here */
+
+
+img, video, audio{
+  max-width: 100%;
+}
+
+
+footer{
+  position:fixed;
+  bottom: 0;
+ text-align:right;
+  width: 100%;
+  background:#fff;
+  z-index: 1;
+}
